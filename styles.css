@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+/* :root{
+    definir nomes para variaveis - tipo cores
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #263b5e;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    padding: 30px 20px;
+    border-bottom: 1px solid #263b5e;
+    background: rgba(28, 28, 28)
+}
+
+.links {
+    text-align: center;
+}
+
+.links a {
+    color: #e37425;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
+    /* transition: color 200ms; */
+}
+
+.links a:hover {
+    color: #263b5e;
+    /* transition: color 200ms; */
+}
+
+#container {
+    text-align: center;
+    padding: 32px;
+    color: white;
+}
+
+#container img {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px groove #201f1e;
+    margin-bottom: 32px;
+}
+
+#container h1 {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#container h2 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+#container p {
+    font-size: 18px;
+    max-width: 500px;
+    margin: 32px auto;
+    line-height: 34px;
+}
+
+#container p a {
+    /* text-decoration: none; */
+    color: black;
+}
+
+#footer-links a {
+    border-bottom: 2px solid #e37425;
+}
+
+#footer-links a:hover {
+    color: white;
+}

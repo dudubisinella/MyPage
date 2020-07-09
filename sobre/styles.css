@@ -1,0 +1,23 @@
+h1{
+   text-align: center;
+    color: red;
+}
+
+main{
+  width: 1000px;
+}
+
+body{
+  background-image: url("https://upload.wikimedia.org/wikipedia/pt/2/23/Internacional_Sport_Club.png" );
+   background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+  background-color: white
+}
+
+p{
+    font-family: cursive;
+    font-size: medium;
+}
+
